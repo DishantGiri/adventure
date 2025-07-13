@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="#" class="active ">Home</a></li>
+            <li><a href="#" class="underline-hover">Tours</a></li>
+            <li><a href="#" class="underline-hover">Explore</a></li>
+            <li><a href="#" class="underline-hover">About</a></li>
+            <li class="ctn" class="underline-hover"><a href="#"><span>Content</span></a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="image not found" class="menu-btn">
+    </nav>
+    <header>
+        <div class="headerwrapper">
+            <div class="header-content">
+                <h2>Explore The Colorful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn"><span>Learn More</span></a>
+    
+            </div>
+
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcomming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="https://www.instagram.com/dishantgiri1/" target="_blank"><img src="./img/img1.png" alt=""></a>
+                
+                <h4>Everest Camp Treak</h4>
+                <p>Embark on an unforgettable journey to the base of the world’s highest peak.
+                    Experience the beauty of the Himalayas, visit Sherpa villages, and witness stunning mountain landscapes on this 14-day adventure of a lifetime.</p>
+                <a href="#" class="ctn"><span>Learn More</span></a>
+            </div>
+            <div class="col">
+                <a href="https://www.instagram.com/dishantgiri1/" target="_blank"><img src="./img/img2.png" alt=""></a>
+                <h4>Walking Holidays</h4>
+                <p>Enjoy peaceful walking holidays through scenic trails, charming villages, and lush countryside.
+                    Perfect for nature lovers seeking a relaxing and refreshing outdoor escape without intense trekking.</p>
+                <a href="#" class="ctn"><span>Learn More</span></a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ea nobis ducimus at, maiores iure explicabo odio suscipit et autem. Vel eos dolorum quidem consectetur!</P>
+            <a href="#" class="ctn"><span>Learn More</span></a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem   ipsum dolor sit amet consectetur adipisicing elit. In sequi modi omnis neque placeat quae quasi ducimus error magnam facilis. Ea tempora eaque culpa vitae.</p>  
+                <a href="#" class="ctn"><span>Learn More</span></a>
+            </div>
+            <div class="col img-col">
+                <div class="image-gallery">
+                    <a href="https://www.instagram.com/dishantgiri1/" target="_blank"><img src="./img/img3.png" alt=""></a>
+                    <a href="https://www.instagram.com/dishantgiri1/" target="_blank"><img src="./img/img4.png" alt=""></a>
+                    <a href="https://www.instagram.com/dishantgiri1/" target="_blank"><img src="./img/img5.png" alt=""></a>
+                    <a href="https://www.instagram.com/dishantgiri1/" target="_blank"><img src="./img/img6.png" alt=""></a>
+                      
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+       <p>123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email: dishantgiri22@gmail.com</p> 
+       <p>Copyright&copy; 2020 Outdoor Adventure</p>
+    </footer>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
